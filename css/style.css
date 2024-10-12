@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+body {
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    width: 50vw;
+    height: 99vh;
+    font-family: 'Shippori Antique', sans-serif;
+    background-color: rgb(217, 229, 252);
+}
+.main__titulo {
+    margin: 0;
+}
+.main {
+    background-color: white;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+.header__div {
+    margin: 1rem;
+}
+
+.contenedorinicial {
+    display: flex;
+    justify-content: center;
+}
+
+.elegirjuego {
+    border-radius: 5%;
+    border: 1px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.juegoelegido {
+    border: 1px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infojuego {
+    background-color: antiquewhite;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info__container {
+    height: 110px;
+    padding-top: 18px;
+}
+.visible {
+    display: none;
+}
+
+.info__stat {
+    border: 1px solid black;
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.posicionteclado {
+    margin-top: 1rem;
+    height: 36vh;
+}
+
+.botones {
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    margin: 0.2rem;
+    background-color: rgb(250, 241, 227);
+}
+
+.enter {
+    width: 105px;
+}
+
+.delete {
+    width: 50px;
+}
+
+.visorjuego {
+    width: 50vw;
+    height: 30vh;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5%;
+}
+
+.preguntas {
+    background-color: white;
+}
+
+/* Una vez se inicia el juego de las preguntas */
+.preguntamostrada {
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    width: 15vw;
+    height: 4vh;
+}
+
+.intento {
+    margin-top: 4rem;
+}
+
+.tmn__imput {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    text-align: center;
+}
+.menu{
+    font-style: italic;
+    list-style: none;
+}
+/* _______________________AMIMACIONES____________________________*/
+.error{
+    background-color: rgb(251, 167, 167);
+}
+.acertado{
+background-color: rgb(148, 248, 137);
+}
+.rotar{
+    animation-name: rotar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes rotar {
+	0% {
+		transform: rotate(0deg);
+	}
+    50%{
+        transform: rotate(10deg);
+    }
+	100% {
+		transform: rotate(0deg);
+	}
+}

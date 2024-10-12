@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Preguntas y respuestas</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li class="menu">Santiago García Barquero DAW</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <h1 class="main__titulo" id="main__titulo">Preguntas y respuestas</h1>
+        <div class="info__container visible" id="info__container">
+            <div class="info" id="containerinfo">
+                <section class="infojuego" >
+                    <p>Puntos</p>
+                </section>
+                <section class="infojuego" id="tiempo">
+                    <p>Tiempo</p>
+                </section>
+            </div>
+            <div class="info" id="containerstat">
+                <section class="info__stat" id="puntos">
+                    <p>0</p>
+                </section>
+                <section class="info__stat">
+                    <span id="reloj"></span>
+                </section>
+            </div>
+        </div>
+        
+
+        <div class="contenedorinicial">
+ 
+            <section class="elegirjuego preguntas" id="preguntas">
+                <p>Comenzar juego</p>
+            </section>
+        </div>
+        <section class="visorjuego">
+            <section class="preguntamostrada" id="preguntamostrada">
+                <p></p>
+            </section>
+            <section id="juegoterminado" class="visible">
+                <p>Tu puntuación ha sido de: <span id="final"></span></p>
+            </section>
+            <section class="intento" id="intento">
+                
+            </section>
+        </section>
+        <section class="posicionteclado" id="teclado">
+            <!--Numeros-->
+            <div>
+                <button class="botones">0</button><button class="botones">1</button><button
+                    class="botones">2</button><button class="botones">3</button><button
+                    class="botones">4</button><button class="botones">5</button><button
+                    class="botones">6</button><button class="botones">7</button><button
+                    class="botones">8</button><button class="botones">9</button>
+            </div>
+            <!--Primera linea de letras-->
+            <div>
+                <button class="botones">Q</button><button class="botones">W</button><button
+                    class="botones">E</button><button class="botones">R</button><button
+                    class="botones">T</button><button class="botones">Y</button><button
+                    class="botones">U</button><button class="botones">I</button><button
+                    class="botones">O</button><button class="botones">P</button>
+            </div>
+            <!--Segunda linea de letras-->
+            <div>
+                <button class="botones">A</button><button class="botones">S</button><button
+                    class="botones">D</button><button class="botones">F</button><button
+                    class="botones">G</button><button class="botones">H</button><button
+                    class="botones">J</button><button class="botones">K</button><button
+                    class="botones">L</button><button class="botones">Ñ</button>
+            </div>
+            <!--Tercera linea de letras-->
+            <div>
+                <button class="botones enter"id="enter"><span>Comprobar</span></button><button
+                    class="botones"><span>Z</span></button><button class="botones"><span>X</span></button><button
+                    class="botones"><span>C</span></button><button class="botones"><span>V</span></button><button
+                    class="botones"><span>B</span></button><button class="botones"><span>N</span></button><button
+                    class="botones"><span>M</span></button><button class="botones delete" id="borrar"><span>
+                        &#9003;</span></button>
+            </div>
+            <!-- <p>Santiago García Barquero 2ºDAW Ribera del tajo</p> -->
+        </section>
+
+
+    </main>
+<script src="./js/script.js"></script>
+</body>
+
+</html>
