@@ -3,3 +3,4 @@ Problemas que tiene el juego
 -Algo repetitivo
 
 Actualizo el readme.txt
+
